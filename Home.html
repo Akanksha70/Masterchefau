@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MasterChef Recipes Gallery</title>
+  <link rel="stylesheet" href="masterchef-gallery.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+
+</head>
+<header class="orange-header">
+  <div class="logo-container">
+    <img src="https://i.pinimg.com/564x/2c/fa/24/2cfa24f3bac914b421e2911210c60cc3.jpg" alt="MasterChef Logo" class="logo">
+  </div>
+  <nav class="nav-links">
+    <a href="Home.html" class="nav-link" id="homeLink">Home</a>
+    <a href="reynold.html" class="nav-link" id="contestants">Contestants</a>
+    <a href="#" class="nav-link">The Dessert game</a>
+    <a href="#" class="nav-link">Social Media</a>
+    <a href="#" class="nav-link">Events calender</a>
+    <a href="#" class="nav-link">More</a>
+  </nav>
+  
+</header>
+
+  <main id="mainContent">
+    <!-- Your landing content here -->
+    <div class="gif-container">
+      <img src="https://www.pedestrian.tv/wp-content/uploads/2020/05/25/reynold-sponge.gif" alt="GIF Image">
+      <p class="gif-text">Life's More Interesting When It's Sweet and Salty.</p>
+      <p class="sub-text">Food | Lifestyle | Entertainment</p>
+    </div>
+    <div class="chef-info">
+      <img src="https://content.api.news/v3/images/bin/8db2dcdacaa9c04ac519129a3f5f97bf" alt="MasterChef Logo" class="chef-logo">
+      <div class="info">
+        <h2>About MasterChef</h2>
+        <p> "Embark on a culinary adventure with us! From savory delights to sweet indulgences, explore our array of recipes crafted by MasterChef maestros. It's time to elevate your cooking game."</p>
+        
+      </div>
+    </div>
+    <div>
+      <h2 class="chef-info">"Join us in the 'kitchen arena' and let's 'whisk' up some magic together!"</h2>
+    </div>
+    
+  </main>
+
+  <footer>
+    <footer>
+      <div class="promotions">
+        <h2>Special Offers & Promotions</h2>
+        <!-- Add promotional content, images, or links here -->
+        <p>Get exclusive access to behind-the-scenes content!</p>
+      </div>
+    
+      <div class="links">
+        <h2>Useful Links</h2>
+        <ul>
+          <li><a href="https://www.masterchef.com.au">Official MasterChef Australia Website</a></li>
+          <!-- Add more useful links -->
+        </ul>
+      </div>
+    
+      <div class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@masterchefrecipes.com</p>
+        <p>For recipe requests or suggestions</p>
+      </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const homeLink = document.getElementById('homeLink');
+      const contestantsLink = document.getElementById('contestantsLink');
+      
+      homeLink.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default behavior of the link
+        // Redirect to the landing page (index.html)
+        window.location.href = 'Home.html';
+      });
+
+      contestantsLink.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default behavior of the link
+        // Redirect to the contestants gallery page
+        window.location.href = 'reynold.html'; // Replace with your actual contestants gallery page URL
+      });
+    });
+  </script>
+
+</body>
+</html>

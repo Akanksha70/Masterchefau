@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>MasterChef Recipes Gallery</title>
+  <link rel="stylesheet" href="masterchef-gallery.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+
+</head>
+<header class="orange-header">
+  <div class="logo-container">
+    <img src="https://i.pinimg.com/564x/2c/fa/24/2cfa24f3bac914b421e2911210c60cc3.jpg" alt="MasterChef Logo" class="logo">
+  </div>
+  <nav class="nav-links">
+    <a href="Home.html" class="nav-link" id="homeLink">Home</a>
+    <a href="reynold.html" class="nav-link" id="contestants">Contestants</a>
+    <a href="#" class="nav-link">Video Content</a>
+    <a href="#" class="nav-link">Events calender</a>
+    <a href="#" class="nav-link">More</a>
+  </nav>
+  
+</header>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MasterChef Gallery</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f3f3f3; /* Example background color */
+      }
+
+      .dish-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Responsive grid */
+        grid-gap: 10px; /* Gap between grid items */
+        padding: 25px 5px; /* Adjust padding to move the dishes below the white block */
+        
+      }
+
+      .dish-item {
+        background-color: #fff; /* Background color for each dish item */
+        border-radius: 0px; /* Rounded corners */
+        overflow: hidden;
+        width: 100%;
+        margin: 5px; /* Adjust the margin to create small space between grid items */
+      }
+
+
+      .dish-item img {
+        width: 100%;
+        height: 80%;
+        display: block;
+        object-fit: cover; /* Maintain aspect ratio and crop image */
+        border-bottom: 5px solid #FF5733; /* Border color below the image */
+        
+      }
+
+      .dish-info {
+        padding: 5px;
+      }
+
+      .dish-info h3 {
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-size: 18px;
+        color: #333; /* Text color for dish name */
+      }
+
+      .dish-info p {
+        margin: 0;
+        color: #666; /* Text color for description */
+      }
+
+  </style>
+</head>
+
+<body style="background-color: black;">
+  <div class="white-block">
+    <div class="dish-grid">
+      <div class="dish-item">
+        <a href="dish1_recipe.html" target="_blank"><img src="https://i.pinimg.com/564x/7e/c4/d4/7ec4d4dbf29cf44c09a50d7cca9d6d50.jpg" alt="Dish 1"></a>
+          <div class="dish-info">
+            <h3>The Forbidden Fruit</h3>
+          </div>
+      </div>
+      <div class="dish-item">
+        <img src="https://i.pinimg.com/564x/02/b4/f4/02b4f48ff936a3ce17ea2e3259573e57.jpg" alt="Dish 2">
+        <div class="dish-info">
+          <h3>Down the rabbit hole</h3>
+          
+        </div>
+      </div>
+      <div class="dish-item">
+        <img src="https://i.pinimg.com/564x/5f/6b/16/5f6b164099b70b935a22e88294a0aaaf.jpg" alt="Dish 3">
+        <div class="dish-info">
+          <h3></h3>
+        
+        </div>
+      </div>
+    </div>
+    <div class="dish-grid">
+      <div class="dish-item">
+        <img src="https://i.pinimg.com/564x/95/ad/18/95ad18ca5ba2cb1cd5dcc10cafb7e193.jpg" alt="Dish 4">
+        <div class="dish-info">
+          <h3>Moss</h3>
+        </div>
+      </div>
+      <div class="dish-item">
+        <img src="https://i.pinimg.com/564x/85/aa/34/85aa34e4601b5bb94bf59e6736b45eb5.jpg" alt="Dish 5">
+        <div class="dish-info">
+          <h3>The Golden Snitch</h3>
+        </div>
+      </div>
+      <div class="dish-item">
+        <img src="https://i.pinimg.com/564x/c2/8c/a2/c28ca2ae13994b53688a92f45c441c27.jpg" alt="Dish 6">
+        <div class="dish-info">
+          <h3>Noi</h3>
+        </div>
+      </div>
+    </div>
+      <!-- Add more dish items similarly -->
+      <footer>
+        <div class="promotions">
+          <h2>Special Offers & Promotions</h2>
+          <!-- Add promotional content, images, or links here -->
+          <p>Get exclusive access to behind-the-scenes content!</p>
+        </div>
+      
+        <div class="links">
+          <h2>Useful Links</h2>
+          <ul>
+            <li><a href="https://www.masterchef.com.au">Official MasterChef Australia Website</a></li>
+            <!-- Add more useful links -->
+          </ul>
+        </div>
+      
+        <div class="contact">
+          <h2>Contact Us</h2>
+          <p>Email: contact@masterchefrecipes.com</p>
+          <p>For recipe requests or suggestions</p>
+        </div>
+      </footer>
+  </div>
+</body>
+
+</html>
+

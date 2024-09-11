@@ -1,0 +1,298 @@
+/* Resetting default margin and padding */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the gallery */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 100px; /* Increase logo size for better visibility */
+  height: 100px; /* Increase logo size for better visibility */
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.gallery-item {
+  width: 180px; /* Adjust width for images */
+  height: 240px; /* Adjust height for images */
+  overflow: hidden;
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  position: relative; /* Positioning for description */
+  margin: 10px; /* Adjust spacing */
+}
+
+.gallery-description {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better readability */
+  padding: 10px;
+  text-align: center;
+  opacity: 1; /* Always visible */
+}
+
+.gallery-description h2 {
+  font-size: 16px; /* Adjust font size for names */
+  font-weight: bold; /* Add bold font weight */
+  margin-bottom: 5px;
+  color: #fff; /* Set font color to white */
+}
+
+.gallery-description p {
+  font-size: 12px; /* Adjust font size for descriptions */
+  color: #ddd; /* Lighter color for descriptions */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('background-image.jpg'); /* Replace with your background image */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Rest of the styles from the previous code snippet */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust the gap between images */
+  padding: 20px;
+}
+
+.gallery-item {
+  width: 200px; /* Adjust width for images */
+  height: 250px; /* Adjust height for images */
+  overflow: hidden;
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px; /* Ensure rounded corners for images */
+}
+
+.gallery-item:hover {
+  transform: scale(1.1);
+}
+
+/* Other existing styles */
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+}
+
+footer h2 {
+  margin-top: 0;
+}
+
+.promotions, .links, .contact {
+  margin-bottom: 20px;
+}
+
+.links a {
+  color: #FF5733; /* Reddish-orange color */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.links a:hover {
+  color: #FF8C66; /* Lighter shade on hover */
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 5px;
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+/*for separator*/
+.orange-header {
+  background-color: #000000; /* Reddish-orange background color */
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  margin-right: 30px; /* Adjust the space between the logo and nav links */
+}
+
+.logo {
+  width: 200px; /* Adjust the logo size as needed */
+  height: 95px;
+  border-radius: 10px; /* Make the logo circular */
+  object-fit: cover;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px; /* Adjust the spacing between links */
+  margin-left: 30px; /* Pushes the links to the right */
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif; /* Use your preferred font-family */
+  font-size: 20px; /* Adjust the font size as needed */
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 30px; /* Adjust the size of social media icons */
+  height: auto;
+}
+
+/* Rest of your existing header styles... */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+/* Rest of your existing styles... */
+.gif-container {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+  overflow: hidden;
+  max-height: 450px;
+  position:relative; /* Adjust the maximum height as needed */
+}
+
+.gif-container img {
+  width: 100%;
+  height: auto; /* Ensure the image fits within the container */
+  object-fit: cover;
+}
+
+.gif-text {
+  white-space: nowrap;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 55px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'EB Garamond', serif; /* Apply Roboto font */
+  margin-bottom: 50px; /* Add space between this text and sub-text */
+}
+
+.sub-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 20px;
+  font-style: italic; /* Italicize the text */
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+  margin-bottom: 10px;
+}
+
+/* display of contents below gif*/
+.chef-info {
+  display: flex;
+  justify-content: center;
+  background-color: black; /* Black background */
+  color: white; /* White text color for contrast */
+  padding: 20px;
+}
+
+.logo-info {
+  width: 60%; /* Set the width to 60% of the page */
+  display: flex;
+  align-items: center;
+}
+
+.chef-logo {
+  width: 60%; /* Adjust the logo size */
+  border-radius: 10px; /* Add rounded corners */
+  margin-right: 20px;
+}
+
+.info {
+  flex: 1; /* Takes remaining space */
+}
+
+.info h2 {
+  font-family: 'Playfair Display', serif; /* Use Playfair Display font */
+  font-size: 40px;
+  margin-bottom: 10px;
+  /* Additional font properties as needed */
+}
+
+
+.info p {
+  font-family: 'Arial', sans-serif; /* A sans-serif font for the paragraph */
+  font-size: 18px; /* Adjust the font size as needed */
+  /* Additional styles as necessary */
+}
+
+
+.chef-info h2 {
+  font-family: 'Poppins', sans-serif; /* Apply your preferred font family */
+  font-size: 28px; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the text bold if desired */
+  color: white; /* Choose your preferred font color */
+  text-align: center; /* Center align the text */
+  margin-bottom: 20px; /* Add some space at the bottom */
+}
+
+.white-block {
+  width: 100%;
+  height: 20px; /* Adjust the height as needed */
+  background-color: white;
+  margin-top: -0px; /* Remove the space by adjusting the margin */
+}
+
+/* Additional styles to adjust margins and paddings */
+body {
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+}
+
+h1, h3 {
+  margin: 0;
+  color:white; /* Fiery color for the headers */
+}
+
+h1 {
+  margin-top: 50px; /* Adjust the value as needed */
+}
+
+h3 {
+  margin-top: 10px; /* Adjust the value as needed */
+}
